@@ -1,19 +1,10 @@
 import { useEffect, useState } from "react";
-import { Food } from "src/components/Food";
+import { Food, FoodData } from "src/components/Food";
 import Header from "src/components/Header";
 import ModalAddFood from "src/components/ModalAddFood";
 import ModalEditFood from "src/components/ModalEditFood";
 import { api } from "src/services/api";
 import { FoodsContainer } from "./styles";
-
-interface FoodData {
-  id: number;
-  name: string;
-  description: string;
-  price: string;
-  available: boolean;
-  image: string;
-}
 
 type FoodInput = Omit<FoodData, "id">;
 
@@ -70,11 +61,11 @@ export function Dashboard() {
   }
 
   function toggleAddFoodModal() {
-    setIsAddFoodModalOpen((state) => !state);
+    setIsAddFoodModalOpen(!isAddFoodModalOpen);
   }
 
   function toggleEditFoodModal() {
-    setIsEditFoodModalOpen((state) => !state);
+    setIsEditFoodModalOpen(!isEditFoodModalOpen);
   }
 
   function handleEditFood(food: FoodData) {
