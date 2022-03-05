@@ -2,7 +2,7 @@ import { useRef } from "react";
 import { FiCheckSquare } from "react-icons/fi";
 import { FoodInput } from "src/components/Food/types";
 import Input from "src/components/Input";
-import Modal from "src/components/Modal";
+import { Modal } from "src/components/Modal";
 import { Form } from "./styles";
 
 interface ModalAddFoodProps {

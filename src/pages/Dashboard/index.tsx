@@ -28,7 +28,7 @@ export function Dashboard() {
         available: true,
       });
 
-      setFoods((state) => [...state, response.data]);
+      setFoods([...foods, response.data]);
     } catch (err) {
       console.log(err);
     }

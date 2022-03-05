@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { FiCheckSquare } from "react-icons/fi";
 import Input from "src/components/Input";
-import Modal from "src/components/Modal";
+import { Modal } from "src/components/Modal";
 import { FoodData, FoodInput } from "../Food/types";
 import { Form } from "./styles";
 
