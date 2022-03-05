@@ -12,7 +12,7 @@ export const Container = styled.div<{ available: boolean }>`
     transition: 0.3s opacity;
     text-align: center;
 
-    ${(available) =>
+    ${({ available }) =>
       !available &&
       css`
         opacity: 0.3;

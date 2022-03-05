@@ -21,14 +21,14 @@ export const Container = styled.div<{ isFocused: boolean; isFilled: boolean }>`
     line-height: 36px;
   }
 
-  ${(isFocused) =>
+  ${({ isFocused }) =>
     isFocused &&
     css`
       color: #ff9000;
       border-color: #ff9000;
     `}
 
-  ${(isFilled) =>
+  ${({ isFilled }) =>
     isFilled &&
     css`
       color: #ff9000;
