@@ -3,7 +3,7 @@ import { Food } from "src/components/Food";
 import { FoodData, FoodInput } from "src/components/Food/types";
 import { Header } from "src/components/Header";
 import { ModalAddFood } from "src/components/ModalAddFood";
-import ModalEditFood from "src/components/ModalEditFood";
+import { ModalEditFood } from "src/components/ModalEditFood";
 import { api } from "src/services/api";
 import { FoodsContainer } from "./styles";
 
