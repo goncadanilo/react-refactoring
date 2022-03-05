@@ -69,6 +69,7 @@ export function Dashboard() {
 
   function handleEditFood(food: FoodData) {
     setEditingFood(food);
+    toggleEditFoodModal();
   }
 
   return (
