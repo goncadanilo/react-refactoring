@@ -32,6 +32,8 @@
 
 <p align="center">
 
+https://user-images.githubusercontent.com/53796755/157120863-0b8316b9-271b-433d-9c00-0b7ca1fd19cd.mp4
+
 </p>
 
 ## 🚀 Tecnologias
@@ -45,7 +47,12 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🎯 Sobre o Desafio
 
-🚧 WIP...
+O objetivo desse desafio foi migrar uma aplicação de Javascript e Class Components para Typescript e Function Components. A aplicação é um painel de gerenciamento de restaurante onde o usuário pode:
+
+- [x] Adicionar um novo prato
+- [x] Editar dados de um prato existente
+- [x] Deletar um prato
+- [x] Controlar a disponibilidade do prato
 
 ## 🔧 Como rodar
 
